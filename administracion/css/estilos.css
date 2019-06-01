@@ -1,0 +1,284 @@
+/*img.logotipo
+{
+    height: 10px;
+    width: 90px;
+}*/
+*{
+    margin:0;
+     
+}
+
+.tsu{
+    color:#45818e;
+}
+
+
+header
+{
+    background: #00ab84/*#28B463*/;
+    height: 75px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+
+.Universidad{
+    padding-top: 20px;
+    padding-right: 100px;
+    font-size:40px;
+}
+.Superior{
+
+    font-size:25px;
+    background:#00ab84;
+    color: white;
+}
+
+.imagen1 img
+{
+    width: 13%;
+    float: left;
+    padding-left: 20px;
+}
+
+form{
+    width:500px;
+   margin: auto;
+    background: black;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    color:white;
+    
+
+}
+h2{
+    color:white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 450px;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;  
+    border:none;
+}
+}
+button{
+    background: white;
+    color:black;
+    padding:20px;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.imagen2{
+    height: 500px;
+    width: 80%;
+    border:solid 3px black;
+    
+}
+
+#tecnico
+{
+    background:#00ab84;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+
+nav{
+    background:#24BF68;
+    border:solid 1px white;
+    padding:20px;
+    width:97.3%; 
+
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    padding:10px;
+    text-transform:uppercase;
+    margin-left: 160px;
+}
+
+nav a:hover{
+    color:white; 
+    background:black; 
+}
+
+section.galeria_contenedor{
+    background:#00ab84;
+       width:93.7%;
+    height: 390px;
+}
+section .galeria{
+    background:#00ab84;
+    width: 100%;
+    height: 350px;
+    border:solid 1px black;
+    
+}
+section
+{
+    padding: 50px;
+    width: 90;
+    overflow: hidden; /*O "height: auto"*/
+}
+
+#competencias
+{
+    background: #00ab84;
+    width: 45%;
+    height: auto;
+    float: left;
+}
+#competencias .cuadro
+{
+    background:#00ab84;
+    padding: 8px;
+    border:solid 3px black;
+    text-align: center;
+}
+.plan_estudios{
+    background: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    border:solid 3px black;
+}
+.plan_estudios2{
+    background: white;
+    padding-top: 20px;
+    padding-left: 25px;
+    border:solid 3px black;
+}
+#competencias .cuadro2
+{
+    background:white;
+    padding: 15px;
+    border:solid 3px black;
+    text-align: justify; 
+}
+.imagen_Contenedor{
+background:#00ab84;
+height: 430px;
+     border:solid 3px black;
+}
+.imagen_Contenedor img{
+margin-top: 16px;
+    margin-left: 14px;
+    border:solid 2px black;
+}
+.imagen_Contenedor2{
+background:#00ab84;
+height: 430px;
+border:solid 3px black;
+}
+.imagen_Contenedor2 img{
+    margin-top: 16px;
+    margin-left: 14px;
+    border:solid 2px black;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+    border:solid 2px black;
+}
+
+#profesional
+{
+    width: 50%;
+    height: auto;
+    float: right; /*sirve para acomodar uno alado del otro*/
+}
+#profesional .cuadro3{
+    
+background:#00ab84;
+    padding: 15px;
+    border:solid 3px black;
+    text-align: center;
+}
+#profesional .cuadro4{
+  background:white;
+    padding: 15px;
+    border:solid 3px black;
+    text-align: justify;
+}
+
+#politicas
+{
+    width: 97%;
+    height: 100px;
+    padding: 20px;
+    background:black;
+    color: white;
+    text-align: center;
+}
+#redes
+{
+    width: 97%;
+    height: 30px;
+    padding: 20px;
+    background:rgb(204, 203, 203);
+    color: black;
+    float: right;
+}
+
+.redesSociales
+{
+    width: 2%;
+    border: solid 1px #cccccc;
+    float: right;
+    padding: 10px;
+  }
+
+.redesSociales img
+{
+      width: 100%;
+} 
+
+.galeria {
+    height: 420px;
+    width: 100%;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative;  
+  }
+  
+  .galeria img {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    opacity: 0;
+    transition: opacity 3s;
+  }
+  
+  .galeria input[type=radio] {
+    margin-top: 400px;
+    bottom: 35px;
+    left: .5em;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }

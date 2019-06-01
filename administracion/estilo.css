@@ -1,0 +1,18 @@
+header
+{
+    background: turquoise;
+    height: 150px;
+    width: 100%
+}
+
+.logo2 img
+{
+    width: 100%;
+}
+
+aside
+{
+    background: gray;
+    height: 100px;
+    width: 50%
+}
